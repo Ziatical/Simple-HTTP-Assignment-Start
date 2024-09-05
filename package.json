@@ -1,0 +1,29 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "http",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ziatical/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Ziatical",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ziatical/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/Ziatical/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.30.0"
+  }
+}
